@@ -21,7 +21,7 @@ Dificultad
 	- [ ] Memoria
 -	Dificil 🥵
 	- [ ] Uno
-	- [ ] Tetris [Colmillos](https://github.com/)
+	- [ ] Tetris [Colmillos](https://github.com/OscarRedondo)
 	- [ ] Pacman [Joan Rojas](https://github.com/JoanRojasMejia)
 
 
