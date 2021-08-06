@@ -30,11 +30,7 @@ hs_err_pid*
 
 #Netbeans
 
-**/nbproject/private/
-**/nbproject/Makefile-*.mk
-**/nbproject/Package-*.bash
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+/nbproject/*
+*.xml
+*.mf
+/Arcade/build/
