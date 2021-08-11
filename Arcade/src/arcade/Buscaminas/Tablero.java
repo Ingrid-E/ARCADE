@@ -19,15 +19,15 @@ public class Tablero {
 
     public char[][] matrizV;
     public char[][] matrizM;
-    public int tamaño;
+    public int tamanio;
 
-    public Tablero(int tamaño) {
+    public Tablero(int tamanio) {
         
-        this.tamaño = tamaño;
-        this.matrizV = new char[tamaño][tamaño];
+        this.tamanio = tamanio;
+        this.matrizV = new char[tamanio][tamanio];
 
-        for (int i = 0; i < tamaño; i++) {
-            for (int j = 0; j < tamaño; j++) {
+        for (int i = 0; i < tamanio; i++) {
+            for (int j = 0; j < tamanio; j++) {
                 this.matrizV[i][j] = '-';
 
             }
@@ -42,8 +42,8 @@ public class Tablero {
     }
 
     public void imprimir() {
-        for (int i = 0; i < tamaño; i++) {
-            for (int j = 0; j < tamaño; j++) {
+        for (int i = 0; i < tamanio; i++) {
+            for (int j = 0; j < tamanio; j++) {
                 System.out.print(matrizV[i][j] + " ");
             }
             System.out.println();
